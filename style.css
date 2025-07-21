@@ -1,0 +1,20 @@
+/* Lines 20-27 */
+#beluga {
+  margin: 50px; 
+  border-radius: 20px;
+  border-style: ridge;
+}
+
+#Name {
+  text-align: center;
+  margin-top: -40px; 
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+/* Line 60-73 */
+#Contact {
+  background-color: orangered; width: 260px;
+  border-radius: 10px;
+  border-style: solid;
+}

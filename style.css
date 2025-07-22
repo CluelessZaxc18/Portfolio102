@@ -12,10 +12,12 @@
   text-shadow: 3px 3px black;
 }
 
-/* Line 60-73 */
-#Contact {
-  background-color: orangered; width: 260px;
-  border-radius: 10px;
-  border-style: solid;
+#Logout {
+position: absolute;
+top: 930px;
+left: 1140px;
+
+
+
 }
 

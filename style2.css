@@ -1,4 +1,30 @@
-body{
-  border: cover;
-  background-color: aqua;
+body {
+  overflow: hidden;
+}
+
+
+.cover1 {
+  background-image: url('IMG/coverP.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 1600px;
+  margin-left: -10px;
+  
+}
+
+.Login {
+  background-color: darkblue; width: 260px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  position: absolute;
+  top: 340px;
+  left: 15px;
+}
+
+#message {
+  position: absolute;
+  top: 515px;
+  left: 28px;
 }

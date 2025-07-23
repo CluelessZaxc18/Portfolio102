@@ -1,20 +1,109 @@
-/* Lines 20-27 */
 #beluga {
-  margin: 50px; 
+  background-image: url('IMG/beluga.jpg');
+  background-size: cover;
+  width: 150px;
+  height: 160px;
+  position: absolute;
+  top: 125px;
+  left: 550px;
+
   border-radius: 20px;
   border-style: ridge;
 }
 
+.Headers {
+  background-color: darkblue;
+  width: cover;
+  height: 300px;
+  margin-top: -20px;
+}
+
+/* Lines 20-27 */
+
 #Name {
   text-align: center;
-  margin-top: -40px; 
+  position: absolute;
+  top: 155px;
+  left: 10px;
   color: white;
   text-shadow: 3px 3px black;
 }
 
+#About {
+  background-color: gold;
+  margin-top: -23px;
+}
+
+#Skills {
+  background-color: gold;
+  margin-top: -23px;
+}
+
+#Education {
+  background-image: url('IMG/Autumn.jpg');
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-top: -21px; 
+}
+
+#ElemPic {
+  background-image: url('IMG/West.png');
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  top: 750px;
+  left: 50px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+#Elem {
+  color: white;
+  background-color: darkorange;
+  position: absolute; 
+  top: 250px; 
+  left: 0px;
+}
+
+#HighPic {
+  background-image: url('IMG/ASNHS.jpg');
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  top: 750px;
+  left: 550px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+}
+
+#High {
+  color: white;
+  background-color: darkgoldenrod;
+  position: absolute; 
+  top: 250px; 
+  left: 0;
+}
+
+#HS-logo {
+  background-image: url('IMG/ASNHS\ logo.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 920px;
+  left: 630px;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: white;
+}
+
 #Logout {
 position: absolute;
-top: 930px;
+top: 1500px;
 left: 1140px;
 
 

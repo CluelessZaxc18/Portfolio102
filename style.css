@@ -1,3 +1,5 @@
+
+/* ******************************************************************************************** */
 #beluga {
   background-image: url('IMG/beluga.jpg');
   background-size: cover;
@@ -5,7 +7,7 @@
   height: 160px;
   position: absolute;
   top: 125px;
-  left: 550px;
+  left: 850px;
 
   border-radius: 20px;
   border-style: ridge;
@@ -42,7 +44,7 @@
   background-size: cover;
   height: 600px;
   width: 100%;
-  margin-top: -23px; 
+  margin-top: -23px;
 }
 
 #ElemPic {
@@ -51,7 +53,7 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 50px;
+  left: 120px;
   border-radius: 20px;
   border-style: solid;
   border-color: black;
@@ -74,7 +76,7 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 510px;
+  left: 810px;
   border-radius: 20px;
   border-style: solid;
   border-color: white;
@@ -97,7 +99,7 @@
   width: 100px;
   position: absolute;
   top: 920px;
-  left: 590px;
+  left: 880px;
   border-radius: 60px;
   border-style: solid;
   border-color: white;
@@ -110,10 +112,11 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 960px;
+  left: 1500px;
   border-radius: 20px;
   border-style: solid;
   border-color: white;
+  justify-content: right;
 }
 
 #College {
@@ -133,7 +136,7 @@
   width: 100px;
   position: absolute;
   top: 920px;
-  left: 1035px;
+  left: 1570px;
   border-radius: 60px;
   border-style: solid;
   border-color: white;
@@ -149,12 +152,4 @@
   border-style: solid;
 }
 
-#Logout {
-position: absolute;
-top: -10px;
-left: 1140px;
-
-
-
-}
 

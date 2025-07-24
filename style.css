@@ -42,7 +42,7 @@
 #Education {
   background-image: url('IMG/Autumn.jpg');
   background-size: cover;
-  height: 600px;
+  height: 500px;
   width: 100%;
   margin-top: -23px;
 }
@@ -53,7 +53,7 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 120px;
+  left: 50px;
   border-radius: 20px;
   border-style: solid;
   border-color: black;

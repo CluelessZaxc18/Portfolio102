@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practicing Html/CSS</title>
+    <title>Digital Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="IMG/HtmlCSS.png">
 </head>
     
 <body>
@@ -15,31 +16,22 @@
     <h3><a href="Main.html">Home</a>  |
     <a href="#Skills">Skills</a>  |
     <a href="#Education">Education</a>  |
-    <a href="#Contact">Contact</a>
+    <a href="#Project">Project</a>
     </h3>
 </nav>
 
 <div class="Headers">
     <div id="beluga">
     <h3 id="Name">Roco Sumagpao</h3>
-    <pre><h3 style="color: grey; text-align: center; margin-top: 210px;">Student</h3></pre>
-   </div>   
-  
-<div id="Circle"></div>
-<br><br>
-<br>
-<br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-
+    <pre><h3 style="color: grey; text-align: center; margin-top: 205px;">Student</h3></pre>
+   </div>  
+  </div>
 <div id="About"><h1 style="margin-left: 10px;">About me:</h1>
 <h4>Hi and Welcome! I am Roco, A person who wants to be a programmer and wants to learn more. A seemingly hard job to do but I'll make a way to get this pass and pursue what I wanted to be since when I was a kid... A student with decent knowledge to say the least.</h4>
 <br></div>
 
 <div id="Skills">
-<h1 style="margin-left: 10px;">My skills Table</h1>
+<h1 style="margin-left: 10px;">My Skills Table</h1>
  <table border="1" style="margin-left: 10px;">
     <tr>
       <th>Skills</th>
@@ -48,26 +40,27 @@
     </tr>
     <tr>
       <td>Html</td>
-      <td>35%</td>
-      <td>2 months</td>
+      <td style="text-align: center;">35%</td>
+      <td style="text-align: center;">2 months</td>
     </tr>
     <tr>
       <td>C++</td>
-      <td>15%</td>
-      <td>20 days</td>
+      <td style="text-align: center;">15%</td>
+      <td style="text-align: center;">20 days</td>
     </tr>
     <tr>
       <td>CSS</td>
-      <td>10%</td>
-      <td>5 days</td>
+      <td style="text-align: center;">10%</td>
+      <td style="text-align: center;">10 days</td>
     </tr>
   </table>
+  <br><br>
   <br></div>
+  
   <h1 style="background-color: orangered; background-size: -50px; margin-top: -21px;">Education:</h1>
   
 <div id="Education"> 
 
-   
   <div id="ElemPic">
           <span id="Elem"><p style="text-align: center;">I graduated Elementary in San Fracisco West Central  Elementary school. I have alot of good and bad memories at the same time. Got 1 award only unfortunately.</p></span>
       </div>
@@ -75,17 +68,312 @@
           <span id="High"><p style="text-align: center;">I graduated here in ASNHS. Being a Program in the Arts in 7th grade until 10th grade. In my Senior High, I chose CSS course its more on Computer and Technology stuff that made me like to pursue as IT course in college. I manage to get an award and certification in our graduation for my immersion or OJT for good behavior and extraordinary performnace on my duty.</p></span>
       </div>
   <a href="https://www.google.com/search?q=agusan+del+sur+national+high+school" target="_blank"><div id="HS-logo"></div></a>
-
-
+  <div id="CollegePic">      
+          <span id="College"><p style="text-align: center;">I am currently studying in SOCOTECH college and still pursuing my IT course to be better someday. Quite not good experience these past years.</p></span>
+      </div>
+  <a href="https://www.google.com/search?q=Socotech+College&oq=Socotech+College" target="_blank"><div id="College-logo"></div></a>
 </div>
-<br><br>
-<hr>
 
-<div id="Project"></div>
-<!--Project description-->
-<h1>Project Section (Not yet finish)</h1>
-<br><br>
-<hr>
+<br>
+
+<div id="Project" style="margin-top: -40px;"></div>
+<div style="background-color: grey;"><h1 style="color: white;">My Project:</h1>
+  <h3 style="margin-left: 5px; color: white;">I made this code (C++) in my 1st year college and save it on Github.</h3>
+  <div id="Screenshot1"></div>
+<pre style="color: white; text-align: left; margin-left: 10px;"><code>
+#include &gt;iostream&gt;
+// I code this manually (with the help of chatgpt a little bit)
+using namespace std;
+
+// Calculation
+void cAdd(double num1, double num2)
+{
+    double cAdd = num1 + num2;
+    cout << "\nThe result is: " << cAdd << endl;
+}
+void cSub(double num1, double num2)
+{
+    double cSub = num1 - num2;
+    cout << "\nThe result is: " << cSub << endl;
+}
+void cMul(double num1, double num2)
+{
+    double cMul = num1 * num2;
+    cout << "\nThe result is: " << cMul << endl;
+}
+
+void cDiv(double num1, double num2)
+{
+    double cDiv = num1 / num2;
+    cout << "\nThe result is: " << cDiv << endl;
+}
+
+// Introduction
+void Introself(string fName, string lName) {
+    cout << "Hello everyone! my first name is " << fName << " and my last Name is " << "\n" << lName << ". You can call me as " << fName << ". " << "Nice to meet you all!" << endl; }
+
+// Grading Qualification
+void Gmath(double mathAv)
+{
+    if (mathAv >= 90) {
+        cout << "You passed! Very good!!" << endl;
+    }
+    if (mathAv >= 80 && mathAv <= 89) {
+        cout << "You passed! Good!!" << endl;
+    }
+   if (mathAv >= 75 && mathAv <= 79) {
+        cout << "You passed! But need to study more!!" << endl;
+    }
+   if (mathAv <= 74) {
+        cout << "You failed! You need to Start highschool once again!!" << endl;
+    }
+}
+        
+void Genglish(double englishAv) {
+    if (englishAv >= 90) {
+        cout << "You passed! Very good!!" << endl;
+    }
+    if (englishAv >= 80 && englishAv <= 89) {
+        cout << "You passed! Good!!" << endl;
+    }
+   if (englishAv >= 75 && englishAv <= 79) {
+        cout << "You passed! But need to study more!!" << endl;
+    }
+   if (englishAv <= 74) {
+        cout << "You failed! You need to Start highschool once again!!" << endl;
+    }
+}
+
+void Gscience(double scienceAv) {
+    if (scienceAv >= 90) {
+        cout << "You passed! Very good!!" << endl;
+    }
+    if (scienceAv >= 80 && scienceAv <= 89) {
+        cout << "You passed! Good!!" << endl;
+    }
+   if (scienceAv >= 75 && scienceAv <= 79) {
+        cout << "You passed! But need to study more!!" << endl;
+    }
+   if (scienceAv <= 74) {
+        cout << "You failed! You need to Start highschool once again!!" << endl;
+    }
+}
+
+void Gfilipino (double filipinoAv) {
+    if (filipinoAv >= 90) {
+        cout << "You passed! Very good!!" << endl;
+    }
+    if (filipinoAv >= 80 && filipinoAv <= 89) {
+        cout << "You passed! Good!!" << endl;
+    }
+   if (filipinoAv >= 75 && filipinoAv <= 79) {
+        cout << "You passed! But need to study more!!" << endl;
+    }
+   if (filipinoAv <= 74) {
+        cout << "You failed! You need to Start highschool once again!!" << endl;
+    }
+}
+
+// Multiplication Table + Range
+void mulTable (int firstNum, int range) {
+    for (int i = 1; i <= range; ++i) {
+        cout << firstNum << " x " << i << " = " << firstNum * i << endl;
+    }
+}
+    
+    
+int main()
+{
+    int choice;
+    int num1, num2;
+    char runAgain;
+    char notAgain;
+    string fName;
+    string lName;
+    double mathAv;
+    double englishAv;
+    double scienceAv;
+    double filipinoAv;
+    int firstNum;
+    int range;    
+    do {
+        cout << "\nChoose an operation you want to calculate: " << endl;
+        cout << "Type [1] for Addition." << endl;
+        cout << "Type [2] for Substraction." << endl;
+        cout << "Type [3] for Multiplication." << endl;
+        cout << "Type [4] for Division." << endl;
+        cout << "\n~ ";
+        cin >> choice;
+
+        if (cin.fail () ) {
+  cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+  
+        if (choice >= 5)
+        {
+            cout << "\nInvalid! Re-run the code again." << endl;
+            return 0;
+        }
+
+        switch (choice)
+        {
+        case 1:
+            cout << "\nYou chose Addition.\n";
+            cout << "Enter : ";
+            cin >> num1;
+            cout << "Plus " << endl;
+            cout << "Enter: ";
+            cin >> num2;
+            cAdd(num1, num2);
+            break;
+
+        case 2:
+            cout << "\nYou chose Substraction.\n";
+            cout << "Enter: ";
+            cin >> num1;
+            cout << "Minus " << endl;
+            cout << "Enter: ";
+            cin >> num2;
+            cSub(num1, num2);
+            break;
+
+        case 3:
+            cout << "\nYou chose Multiplication.\n";
+            cout << "Enter: ";
+            cin >> num1;
+            cout << "Times " << endl;
+            cout << "Enter: ";
+            cin >> num2;
+            cMul(num1, num2);
+            break;
+
+        case 4:
+            cout << "\nYou chose Division.\n";
+            cout << "Enter: ";
+            cin >> num1;
+            cout << "Divide " << endl;
+            cout << "Enter: ";
+            cin >> num2;
+            cDiv(num1, num2);
+            break;
+
+        default:
+            cout << "\n~ The command you want is not in the choices ~" << endl;
+            break;
+        }
+  cout << "\nType 1 if you want to continue, and Type 2 if not. ";
+  cout << "\n~ ";
+  cin >> choice;
+  
+  if (choice >=3) {
+     cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+  
+ if (cin.fail () ) {
+  cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+ 
+  if (choice == 2) {
+      cout << "\nThanks for participating!" << endl;
+      return 0;
+  }
+  
+  if (choice == 1) {
+  
+cout << "\nWelcome Everyone!" << endl;
+cout << "Now, let's move to Introduction: " << endl;
+cout << "\nEnter your first Name: ";
+cin >> fName;
+
+cout << "\nEnter yout last Name: ";
+cin >> lName;
+
+Introself (fName, lName);
+  }
+
+cout << "\nType 1 if you want to continue, and Type 2 if not. ";
+  cout << "\n~ ";
+  cin >> choice;
+  
+ if (choice >=3) {
+     cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+  
+ if (cin.fail () ) {
+  cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+  
+  if (choice == 2) {
+      cout << "\nThanks for participating!" << endl;
+      return 0;
+  }
+  
+if (choice == 1) {
+   cout << "\nWelcome in Grading Qualification!" << endl;
+   cout << "To start this, Put the all subject average grade you had in your highschool: " << endl;
+   
+   cout << "\nAverage of Math grades: ";
+   cin >> mathAv;
+   cout << "\nAverage of English grades: ";
+   cin >> englishAv;
+   cout << "\nAverage of Science grades: ";
+   cin >> scienceAv;
+   cout << "\nAverage of Filipino grades: ";
+   cin >> filipinoAv;
+   cout << "\n[•Math•]" << endl;
+   Gmath(mathAv);
+   cout << "\n[•English•]" << endl;
+   Genglish(englishAv);
+   cout << "\n[•Science•]" << endl;
+   Gscience(scienceAv);
+   cout << "\n[•Filipino•]" << endl;
+   Gfilipino(filipinoAv);
+}
+
+cout << "\nType 1 if you want to continue, and Type 2 if not. ";
+  cout << "\n~ ";
+  cin >> choice;
+  
+  if (choice >=3) {
+     cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+  
+ if (cin.fail () ) {
+  cout << "Invalid choice! Re-run the code again." << endl;
+  return 0; }
+ 
+  if (choice == 2) {
+      cout << "\nThanks for participating!" << endl;
+      return 0;
+  }
+  
+  if (choice == 1) {
+
+cout << "\nWelcome to Multiplication with range!" << endl;
+cout << "Enter a number: ";
+cin >> firstNum;
+cout << "Enter the range: ";
+cin >> range;
+
+mulTable (firstNum, range);
+  }
+  
+  
+  cout << "\nType any letter if you want to Restart again,\nand type [0] if not..";
+  cout << "\n~ ";
+  cin >> runAgain;
+  
+    } while (runAgain == 'a-z' || runAgain != '0');   
+    return 0;
+}
+
+
+
+
+</code></pre>
+
+</div> 
+
 <h1 id="Logout"><pre><a href="Main.html" style="color: blue;">Logout</a></pre></h1>
 
 

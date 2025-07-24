@@ -2,6 +2,13 @@ body {
   overflow: hidden;
 }
 
+#wlcm {
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  
+}
 
 .cover1 {
   background-image: url('IMG/coverP.jpg');

@@ -9,6 +9,8 @@
 </head>
     
 <body>
+
+    <head>
     <div id="Home"></div>
   <nav id="Port" style="text-align: center; background-color: greenyellow;">
      <h1>My Portfolio</h1>
@@ -19,6 +21,27 @@
     <a href="#Project">Project</a>
     </h3>
     </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="Main.html">Home</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Education">Education</a>
+      <a href="#Project">Project</a>
+    </div>
+    </head>
+
+    <script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("show");
+  }
+</script>
 
 
 <div class="Headers">

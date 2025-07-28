@@ -1,5 +1,7 @@
+#Port {
+  width: 100vw;
+}
 
-/* ******************************************************************************************** */
 #beluga {
   background-image: url('IMG/beluga.jpg');
   background-size: cover;
@@ -7,7 +9,7 @@
   height: 160px;
   position: absolute;
   top: 125px;
-  left: 850px;
+  left: 550px;
 
   border-radius: 20px;
   border-style: ridge;
@@ -15,7 +17,7 @@
 
 .Headers {
   background-color: darkblue;
-  width: cover;
+  width: 100vw;
   height: 300px;
   margin-top: -20px;
 }
@@ -32,18 +34,23 @@
 #About {
   background-color: gold;
   margin-top: -23px;
+  width: 100vw;
 }
 
 #Skills {
   background-color: gold;
   margin-top: -23px;
+  width: 100vw;
 }
 
+#Ed {
+  width: 100vw;
+}
 #Education {
   background-image: url('IMG/Autumn.jpg');
   background-size: cover;
-  height: 500px;
-  width: 100%;
+  height: 530px;
+  width: 100vw;
   margin-top: -23px;
 }
 
@@ -76,7 +83,7 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 810px;
+  left: 500px;
   border-radius: 20px;
   border-style: solid;
   border-color: white;
@@ -99,7 +106,7 @@
   width: 100px;
   position: absolute;
   top: 920px;
-  left: 880px;
+  left: 575px;
   border-radius: 60px;
   border-style: solid;
   border-color: white;
@@ -112,7 +119,7 @@
   width: 250px;
   position: absolute;
   top: 750px;
-  left: 1500px;
+  left: 955px;
   border-radius: 20px;
   border-style: solid;
   border-color: white;
@@ -136,7 +143,7 @@
   width: 100px;
   position: absolute;
   top: 920px;
-  left: 1570px;
+  left: 1030px;
   border-radius: 60px;
   border-style: solid;
   border-color: white;
@@ -152,4 +159,10 @@
   border-style: solid;
 }
 
+#Project {
+  width: 100vw;
+}
 
+#Contact {
+  width: 100vw; 
+}

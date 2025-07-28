@@ -81,12 +81,14 @@ nav a {
   width: 150px;
   height: 160px;
   position: absolute;
-  top: 125px;
-  left: 550px;
+  top: 115px;
+  left: 570px;
 
   border-radius: 20px;
   border-style: ridge;
 }
+
+
 
 .Headers {
   background-color: darkblue;
@@ -238,4 +240,9 @@ nav a {
 
 #Contact {
   width: 100vw; 
+}
+
+#Send {
+  text-decoration-line: none;
+  color: black;
 }

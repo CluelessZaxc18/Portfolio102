@@ -13,8 +13,8 @@ body {
 .cover1 {
   background-image: url('IMG/coverP.jpg');
   background-size: cover;
-  height: 1200px;
-  width: 1200;
+  height: 100vh;
+  width: 100vw;
   margin-left: -10px;
   
 }
@@ -31,6 +31,6 @@ body {
 
 #message {
   position: absolute;
-  top: 1000px;
-  left: 29px;
+  top: 515px;
+  left: 30px;
 }

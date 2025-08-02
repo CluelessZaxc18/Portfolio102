@@ -83,9 +83,9 @@ nav a {
   position: absolute;
   top: 115px;
   left: 570px;
-
+  border-color: white;
   border-radius: 20px;
-  border-style: ridge;
+  border-style: solid;
 }
 
 

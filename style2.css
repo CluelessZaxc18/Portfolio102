@@ -2,14 +2,6 @@ body {
   overflow: hidden;
 }
 
-#wlcm {
-  color: white;
-  position: absolute;
-  top: 250px;
-  left: 650px;
-  
-}
-
 .cover1 {
   background-image: url('IMG/coverP.jpg');
   background-size: cover;
@@ -25,7 +17,7 @@ body {
   border-style: solid;
   border-color: grey;
   position: absolute;
-  top: 340px;
+  top: 700px;
   left: 15px;
 }
 

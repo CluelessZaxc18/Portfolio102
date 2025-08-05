@@ -409,8 +409,10 @@ mulTable (firstNum, range);
     <center><label style="color: white;"for="Email">Email or Username:</label><br></center>
     <center><input type="Email" id="Email" name="Email"><br><br></center>
 
-    <center><label style="color: white;"for="message">Enter Message:</label><br></center>
-    <center><input type="message" id="message" name="message"><br><br></center>
+
+    <center><textarea id="message" rows="5" cols="30" maxlength="150" placeholder="Enter your message."></textarea></center>
+    <center><p id="charCount"><b>0 / 150 characters</b></p></center>
+    <center><p id="warning" style="color: white; display: none;">Character limit reached!</p></center>
 
     <center><button onclick="checklogin()" style="margin-bottom: 30px;"><a href="https://mail.google.com/mail/u/0/" target="_blank" id="Send">Send</a></button></center>
     </form>

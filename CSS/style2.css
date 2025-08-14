@@ -3,7 +3,7 @@ body {
 }
 
 .cover1 {
-  background-image: url('IMG/coverP.jpg');
+  background-image: url('/IMG/coverP.jpg');
   background-size: cover;
   height: 100vh;
   width: 100vw;

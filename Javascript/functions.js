@@ -10,5 +10,15 @@ function checkLogin() {
   }
 }
 
+function sendingEmail() {
+  const Email = document.getElementById("Email2").value;
+  const message = document.getElementById("message2");
 
+  if (Email2) {
+    window.alert("An Email has been sent.");
+  }
+  else {
+    window.alert("Fill up the message or enter an email first.");
+  }
+}
 
